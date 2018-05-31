@@ -21,7 +21,7 @@ To modify the displayed feed, click the menu and select the feed you want to che
 
 The application comes ready to be used.
 Nevertheless the list of website feeds can be modified to stick to your interests. You can modify the RSS followed, delete, add, ...
-To do so, simply open app.js, and go to the part declaring "var allFeeds". Then, you can change your feeds by adding(or modifying) the name of the new website you want to follow by typing it after "name :" , and add the full url of the feed after the "url :". Remember the names and url must be typed inside quotes. As follows:
+To do so, simply go ot:  "/js/app.js", and reach the part declaring "var allFeeds". Then, you can change your feeds by adding(or modifying) the name of the new website you want to follow by typing it after "name :" , and add the full url of the feed after the "url :". Remember the names and url must be typed inside quotes. As follows:
 
     var allFeeds = [
          {
@@ -45,7 +45,7 @@ To do so, simply open app.js, and go to the part declaring "var allFeeds". Then,
 ## Technical Instructions for Developers
 
 The matser branch is production ready.
-A suite of tests using Jasmine.js is used, and coded using partially ES6.
+A suite of tests using Jasmine.js is used, and coded using partially ES6. It is ine "/jasmine/spec/feedreader.js".
 The app.js was pre-built, by other people at Udacity, using JQuery.
 
 ## Credits
