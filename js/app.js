@@ -8,7 +8,10 @@
 
 // The names and URLs to all of the feeds we'd like available.
 var allFeeds = [
-    {
+     {
+        name: 'Mediapart',
+        url: 'https://www.mediapart.fr/articles/feed'
+    }, {
         name: 'Udacity Blog',
         url: 'http://blog.udacity.com/feed'
     }, {
@@ -18,8 +21,8 @@ var allFeeds = [
         name: 'HTML5 Rocks',
         url: 'http://feeds.feedburner.com/html5rocks'
     }, {
-        name: 'Linear Digressions',
-        url: 'http://feeds.feedburner.com/udacity-linear-digressions'
+        name: 'Korben',
+        url: 'https://korben.info/feed'
     }
 ];
 
