@@ -19,6 +19,7 @@ To modify the displayed feed, click the menu and select the feed you want to che
 
 ## Setup
 
+To use the web-application, load "index.html" in your browser.
 The application comes ready to be used.
 Nevertheless the list of website feeds can be modified to stick to your interests. You can modify the RSS followed, delete, add, ...
 To do so, simply go ot:  "/js/app.js", and reach the part declaring "var allFeeds". Then, you can change your feeds by adding(or modifying) the name of the new website you want to follow by typing it after "name :" , and add the full url of the feed after the "url :". Remember the names and url must be typed inside quotes. As follows:
