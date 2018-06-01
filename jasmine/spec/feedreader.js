@@ -69,11 +69,11 @@ $(function() {
           */
         it('displays and hides again when clicked twice', function() {
             
-            const menu = document.querySelector('.slide-menu');
             const body = document.querySelector('body');
+            const menuButton = document.querySelector('.menu-icon-link');
             
             // display the menu
-            body.setAttribute('class','');
+            menuButton.click()
             
             // tests that menu is displayed
             console.log(document.querySelector('.slide-menu').getBoundingClientRect());
@@ -81,7 +81,7 @@ $(function() {
             
             
             // hides the menu
-            const hidesMenu = body.setAttribute('class','menu-hidden');
+            menuButton.click()
             
             // tests that menu is hidden
             console.log(document.querySelector('.slide-menu').getBoundingClientRect());
