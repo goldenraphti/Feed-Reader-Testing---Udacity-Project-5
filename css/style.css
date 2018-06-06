@@ -36,7 +36,7 @@ h2 {
 }
 
 .header {
-    background: #4caf50;
+    background: linear-gradient(122.07735714150658deg, rgba(217, 124, 152,1) 6.140625%,rgba(234, 220, 34,1) 95.51562499999999%);
     color: #fff;
     position: fixed;
     top: 0;
@@ -53,11 +53,13 @@ h2 {
     position: absolute;
     top: 3.5em;
     padding: 1em;
-    background: #4caf50;
+    background: 
+linear-gradient(122.07735714150658deg, rgba(217, 124, 152,1) 6.140625%,rgba(234, 220, 34,1) 95.51562499999999%);
     height: 100%;
     width: 10em;
     transform: translate3d(0, 0, 0);
     transition: transform 0.2s;
+    box-shadow: 0 2px 5px #7e7e7e;
 }
 
 .slide-menu ul {
